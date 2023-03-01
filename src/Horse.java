@@ -40,6 +40,6 @@ public class Horse extends Animal
      * @return the horse's daily income 
      */
     public double getCost(double HayCost, double CornCobCost) 
-    {return (RidesGiven * CostPerRide) - ((super.getHay() * HayCost) + (super.getCornCobs() * CornCobCost));}
+    {return (RidesGiven *CostPerRide) - ((super.getHay() * HayCost) + (super.getCornCobs() * CornCobCost));}
     
 }

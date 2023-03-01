@@ -23,6 +23,6 @@ public class Cow extends Animal
      
      /** @return the cow's income per day */
      public double getCost(double HayCost, double CornCobCost) 
-     {return ((MilkProduced * 0.20) - ((super.getHay() * HayCost) + (super.getCornCobs() * CornCobCost)));}
+     {return (MilkProduced * 0.20) - (super.getCornCobs() * CornCobCost);}
     
 }
